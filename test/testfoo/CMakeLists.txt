@@ -17,5 +17,5 @@ target_link_libraries(testfoo
     libgmock
 )
 
-add_test(NAME testfoo
-         COMMAND testfoo)
+include(GoogleTest)
+gtest_discover_tests(testfoo)
