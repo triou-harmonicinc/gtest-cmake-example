@@ -1,0 +1,5 @@
+{
+    "cmake.ctest.testSuiteDelimiter": "\\.|\\/",
+    "cmake.ctest.allowParallelJobs": true,
+    "cmake.ctest.parallelJobs": 4
+}
